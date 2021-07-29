@@ -52,13 +52,16 @@
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
+
     <EditText
         android:id="@+id/et_title"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="start"
-        android:background="@null"
-        android:layout_marginTop="15sp"
+        android:layout_height="579dp"
         android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15sp"
+        android:background="@null"
+        android:gravity="start"
         android:hint="@string/input_text" />
+
+
 </LinearLayout>
